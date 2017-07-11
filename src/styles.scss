@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+body,
+html {
+  margin: 0;
+  background: #002030;
+}
+
+
+@font-face {
+  font-family: 'jaapokkisubtract';
+  src: url('assets/fonts/jaapokki/subtract/jaapokkisubtract-regular.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/jaapokki/subtract/jaapokkisubtract-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('assets/fonts/jaapokki/subtract/jaapokkisubtract-regular.woff') format('woff'), /* Pretty Modern Browsers */
+  url('assets/fonts/jaapokki/subtract/jaapokkisubtract-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('assets/fonts/jaapokki/subtract/jaapokkisubtract-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'jaapokki';
+  src: url('assets/fonts/jaapokki/regular/jaapokki-regular.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/jaapokki/regular/jaapokki-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('assets/fonts/jaapokki/regular/jaapokki-regular.woff') format('woff'), /* Pretty Modern Browsers */
+  url('assets/fonts/jaapokki/regular/jaapokki-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('assets/fonts/jaapokki/regular/jaapokki-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}

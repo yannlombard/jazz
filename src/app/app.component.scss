@@ -1,34 +1,31 @@
 @import '../mixins';
 
 .wrapper {
-  border: 10px solid #ff4d4d;
-  padding: 2rem;
   background: #002030;
   color: #ff4d4d;
 
   font: normal 14px/1.3 jaapokkisubtract, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
+  .page {
+    background: url(../assets/images/silvio-kundt-65518.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+
   .innerWrapper {
     margin: 0 auto;
     max-width: 310px;
+
+    @include desktop {
+
+    }
   }
 
   h1 {
-    margin: 1rem 0 3rem;
+    padding: 1em;
+    margin: 0;
     font-size: 2rem;
-    text-align: center;
     text-transform: uppercase;
     line-height: 1;
-
-    @include tablet {
-      font-size: 4rem;
-      margin-top: 10rem;
-    }
-
-    @include desktop {
-      font-size: 4rem;
-      margin-top: 15rem;
-    }
 
     img {
       display: inline-block;
@@ -37,7 +34,7 @@
       margin: 0 -0.5em 0;
 
       @include desktop {
-        height: 5rem;
+        height: 2.5rem;
       }
     }
 
@@ -63,6 +60,7 @@
     }
 
     @include desktop {
+      font-size:4rem;
       margin-bottom: 16rem;
     }
   }
